@@ -6,7 +6,7 @@ function do_zip_update($server)
 {
         $db2 = mysql_connect($server,'user_id','password');
         mysql_select_db('zip_cnv');
-        if(function_exists(‘mysql_set_charset’))  {
+        if(function_exists('mysql_set_charset'))  {
                 mysql_set_charset('utf8');
         } else {
                 mysql_query('set names utf8');
