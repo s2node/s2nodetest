@@ -8,7 +8,7 @@ fi
 mkdir zip_work
 cd zip_work
 wget http://www.post.japanpost.jp/zipcode/dl/kogaki/lzh/ken_all.lzh
-lha x ken_all.lzh
+/usr/local/bin/lha x ken_all.lzh
 if [ -f KEN_ALL.CSV ]; then
         nkf -O -Lu -d -S -w8 -X KEN_ALL.CSV zip.csv
 fi
