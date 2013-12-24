@@ -1,7 +1,7 @@
 #!/bin/sh
 # 郵政省の公式サイトの郵便番号辞書をダウンロードしてくる
 # 週に1回ダウンロードするように設定してある。
-# ref2
+# fix2
 cd ~/zip
 if [ -d zip_work ]; then
     rm -r zip_work
