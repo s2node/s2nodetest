@@ -6,7 +6,7 @@
 -- 生成時間: 2013 年 12 月 10 日 15:01
 -- サーバのバージョン: 5.0.95
 -- PHP のバージョン: 5.1.6
--- test 
+-- test 2
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
